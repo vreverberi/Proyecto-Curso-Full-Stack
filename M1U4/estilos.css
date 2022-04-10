@@ -1,0 +1,52 @@
+p{
+    font-family: Verdana;
+    /* Formato párrafo. Recordar cómo se comenta. */
+    font-size: 13px;
+    line-height: 20px;
+}
+h1{
+    color: white;
+    background-color: black;
+    font-family: Tahoma;
+    font-size: 24px;
+}
+h2{
+    font-family: Tahoma;
+    font-size: 22px;
+}
+h3{
+    color: blue ;
+    font-family: Calibri;
+    font-size: 20px;
+}
+.destacados{
+    font-weight: bold;
+}
+#verde{
+    font-family: 'Lucida Sans';
+    font-size: 14px;
+    width: 300px;
+    height: 130px;
+    line-height: 20px;
+    background-color: rgba(150, 241, 147, 0.445);
+    padding: 14px;
+}
+#celeste{
+    font-family: 'Lucida Sans';
+    font-size: 14px;
+    width: 300px;
+    height: 130px;
+    line-height: 20px;
+    background-color: rgba(176, 228, 248, 0.445);
+    padding: 14px;
+}
+#foto{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+}
+#perfil{
+    font-family:cambria;
+    font-size: 16px;
+    line-height: 24px;
+}
