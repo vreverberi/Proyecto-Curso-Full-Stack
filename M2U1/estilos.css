@@ -1,0 +1,78 @@
+p {
+    font-family: Verdana;
+    /* Formato párrafo. Recordar cómo se comenta. */
+    font-size: 13px;
+    line-height: 20px;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    font-family: Tahoma;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: Tahoma;
+    font-size: 22px;
+}
+
+h3 {
+    color: blue;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.destacados {
+    font-weight: bold;
+}
+
+.verde {
+    font-family: 'Lucida Sans';
+    font-size: 14px;
+    width: 300px;
+    height: 150px;
+    line-height: 20px;
+    /* background-color: rgba(150, 241, 147, 0.445); */
+    background: #00fff6;
+    background: linear-gradient(180deg, #00fff6 0%, #00ffaa 80%);
+    background: -webkit-linear-gradient(180deg, #00fff6 0%, #00ffaa 80%);
+    background: -moz-linear-gradient(180deg, #00fff6 0%, #00ffaa 80%);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 200px 0px 0px 200px;
+-webkit-border-radius: 200px 0px 0px 200px;
+-moz-border-radius: 200px 0px 0px 200px;
+box-shadow: 10px 10px 5px rgb(194, 191, 191);
+}
+
+.celeste {
+    font-family: 'Lucida Sans';
+    font-size: 14px;
+    width: 300px;
+    height: 150px;
+    line-height: 20px;
+    /* background-color: rgba(176, 228, 248, 0.445); */
+    background: #005fff;
+    background: linear-gradient(180deg, #005fff 0%, #00ffe7 80%);
+    background: -webkit-linear-gradient(180deg, #005fff 0%, #00ffe7 80%);
+    background: -moz-linear-gradient(180deg, #005fff 0%, #00ffe7 80%);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0px 200px 200px 0px;
+    -webkit-border-radius: 0px 200px 200px 0px;
+    -moz-border-radius: 0px 200px 200px 0px;
+    box-shadow: 0px 0px 20px rgb(20, 2, 2);
+}
+
+#foto {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+}
+
+#perfil {
+    font-family: cambria;
+    font-size: 16px;
+    line-height: 24px;
+}
