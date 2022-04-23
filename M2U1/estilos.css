@@ -8,13 +8,14 @@ p {
 h1 {
     color: white;
     background-color: black;
-    font-family: Tahoma;
-    font-size: 24px;
+    font-family: 'Water Brush', cursive;
+    font-size: 40px;
 }
 
 h2 {
     font-family: Tahoma;
     font-size: 22px;
+    text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.6);
 }
 
 h3 {
@@ -41,9 +42,9 @@ h3 {
     padding: 10px;
     box-sizing: border-box;
     border-radius: 200px 0px 0px 200px;
--webkit-border-radius: 200px 0px 0px 200px;
--moz-border-radius: 200px 0px 0px 200px;
-box-shadow: 10px 10px 5px rgb(194, 191, 191);
+    -webkit-border-radius: 200px 0px 0px 200px;
+    -moz-border-radius: 200px 0px 0px 200px;
+    box-shadow: 10px 10px 5px rgb(194, 191, 191);
 }
 
 .celeste {
@@ -65,14 +66,31 @@ box-shadow: 10px 10px 5px rgb(194, 191, 191);
     box-shadow: 0px 0px 20px rgb(20, 2, 2);
 }
 
-#foto {
+.foto {
     width: 150px;
     height: 150px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
+    border: 8px solid #ff50ed;
+
 }
 
-#perfil {
+.perfil {
     font-family: cambria;
     font-size: 16px;
     line-height: 24px;
+}
+
+.camilla {
+    font-family: cambria;
+    font-size: 16px;
+    line-height: 24px;
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-gap: 25px;
+    -webkit-column-gap: 25px;
+    -moz-column-gap: 25px;
+    column-rule: 6px none #000000;
+    -webkit-column-rule: 6px none #000000;
+    -moz-column-rule: 6px none #000000;
 }
