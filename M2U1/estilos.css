@@ -78,6 +78,7 @@ h3 {
     font-family: cambria;
     font-size: 16px;
     line-height: 24px;
+    padding: 0px 20px 20px 20px;
 }
 
 .camilla {
@@ -87,10 +88,11 @@ h3 {
     column-count: 2;
     -webkit-column-count: 2;
     -moz-column-count: 2;
-    column-gap: 25px;
-    -webkit-column-gap: 25px;
-    -moz-column-gap: 25px;
+    column-gap: 50px;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
     column-rule: 6px none #000000;
     -webkit-column-rule: 6px none #000000;
     -moz-column-rule: 6px none #000000;
+    padding: 0px 20px 20px 20px;
 }
