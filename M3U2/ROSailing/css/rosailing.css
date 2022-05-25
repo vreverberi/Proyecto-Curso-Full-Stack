@@ -102,6 +102,9 @@ h2 {
     display: block;
     /* margin: 12px 0; */
 }
+
+/* Nosotros */
+
 .personas {
     /* border: 1px solid #ccc;
     border-radius: 10px; */
@@ -160,6 +163,8 @@ h2 {
     /* justify-content: space-between; */
 }
 
+/* Viajes */
+
 .servicio {
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -213,9 +218,22 @@ h2 {
 }
 
 
-/* Fin Galería */
+/* Novedades */
 
-/* Inicio Contacto */
+.novedades h3 {
+    font-size: 16px;
+}
+
+.novedades h4 {
+    font-size: 14px;
+}
+
+.novedades p {
+    font-size: 12px;
+}
+
+
+/* Contacto */
 
 .contacto {
     display: flex;
@@ -304,5 +322,3 @@ h2 {
     display:flex;
     gap: 400px;
 }
-
-/* Fin Contacto */
