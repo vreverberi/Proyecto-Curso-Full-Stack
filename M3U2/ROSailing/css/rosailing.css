@@ -252,7 +252,7 @@ h2 {
 .formulario p textarea {
     width: 100%;
     background:rgba(0, 0, 0, 0.1);
-    border radius: 5px;
+    border-radius: 5px;
     border: 1px solid #999;
     font-size: 14px;
     padding: 6px 10px;
