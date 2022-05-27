@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ejercicio 1 - M3U3</title>
+</head>
+
+<body>
+    <h2>Ejercicio 1 - M3U3</h2>
+    <script>
+        distancia = prompt('Ingrese la distancia a recorrer en metros:', '');
+        while (isNaN(distancia)) {
+            distancia = prompt('Ingrese la distancia a recorrer en metros:', '');
+        }
+        distancia = parseInt(distancia);
+        if (distancia >= 0 && distancia <= 1000) {
+            document.write('El mejor medio para llegar es a pie')
+        } else {
+            if (distancia > 1000 && distancia <= 10000) {
+                document.write('El mejor medio para llegar es en bicicleta')
+            } else {
+                if (distancia > 10000 && distancia <= 30000) {
+                    document.write('El mejor medio para llegar es en colectivo')
+                } else {
+                    if (distancia > 30000 && distancia <= 100000) {
+                        document.write('El mejor medio para llegar es en auto')
+                    } else {
+                        if (distancia > 100000) {
+                            document.write('El mejor medio para llegar es en avión')
+                        } else {
+                            document.write('Ingrese una distancia válida')
+                        }
+                    }
+
+                }
+            }
+        }
+    </script>
+
+</body>
