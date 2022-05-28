@@ -8,26 +8,28 @@
 
 <body>
     <h2>Ejercicio 1 - M3U3</h2>
-    <script>
+    <h3><script>
+        mens1='El mejor medio para recorrer '
         distancia = prompt('Ingrese la distancia a recorrer en metros:', '');
         while (isNaN(distancia)) {
+            alert("Debe ingresar distancia válida");
             distancia = prompt('Ingrese la distancia a recorrer en metros:', '');
         }
         distancia = parseInt(distancia);
         if (distancia >= 0 && distancia <= 1000) {
-            document.write('El mejor medio para llegar es a pie')
+            document.write(mens1 + distancia + ' metros, es a pie')
         } else {
             if (distancia > 1000 && distancia <= 10000) {
-                document.write('El mejor medio para llegar es en bicicleta')
+                document.write(mens1 + distancia + ' metros, es en bicicleta')
             } else {
                 if (distancia > 10000 && distancia <= 30000) {
-                    document.write('El mejor medio para llegar es en colectivo')
+                    document.write(mens1 + distancia + ' metros, es en colectivo')
                 } else {
                     if (distancia > 30000 && distancia <= 100000) {
-                        document.write('El mejor medio para llegar es en auto')
+                        document.write(mens1 + distancia + ' metros, es en auto')
                     } else {
                         if (distancia > 100000) {
-                            document.write('El mejor medio para llegar es en avión')
+                            document.write(mens1 + distancia + ' metros, es en avión')
                         } else {
                             document.write('Ingrese una distancia válida')
                         }
@@ -36,6 +38,6 @@
                 }
             }
         }
-    </script>
+    </script></h3>
 
 </body>

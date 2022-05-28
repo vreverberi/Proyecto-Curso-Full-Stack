@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+</head>
+
+<body>
+	<h2>Ejercicio 2 - M3U3</h2>
+	<script>
+		var cantidad = 10;
+		var numeros = [""];
+		for (n = 1; n <= cantidad; n++) {
+			numero = prompt('Ingrese número ' + n + ' de ' +cantidad, '');
+			numero = parseInt(numero);
+			if (isNaN(numero)) {
+				alert('Debe ingresar un número');
+				n = n - 1;
+			} else {
+				x = n - 1;
+				numeros[x] = [numero];
+			}
+		}
+		document.write('Los números ingresados son: ' + numeros);
+		var mayor = 0;
+		var aux = 0;
+		mayor=parseInt(mayor);
+		aux=parseInt(aux);
+		for (i = 1; i <= cantidad; i++) {
+			w = i-1;
+			aux=numeros[w];
+			if (aux > mayor) {
+				mayor=aux;
+			}
+		}
+		document.write('<br>' + '<br>');
+		document.write('El mayor número ingresado es ' +mayor);
+	</script>
+
+</body>
+
+</html>
