@@ -10,7 +10,7 @@
 	<h2>Ejercicio 2 - M3U3</h2>
 	<script>
 		var cantidad = 10;
-		var numeros = [""];
+		var numeros = [] ;
 		for (n = 1; n <= cantidad; n++) {
 			numero = prompt('Ingrese número ' + n + ' de ' +cantidad, '');
 			numero = parseInt(numero);
@@ -19,7 +19,7 @@
 				n = n - 1;
 			} else {
 				x = n - 1;
-				numeros[x] = [numero];
+				numeros[x] = numero;
 			}
 		}
 		document.write('Los números ingresados son: ' + numeros);
