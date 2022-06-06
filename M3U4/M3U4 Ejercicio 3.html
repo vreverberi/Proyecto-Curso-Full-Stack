@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function mayoresnotas(alumnos) {
+            var f = 0;
+            var aprobados;
+            aprobados = new Array();
+            var hasta = alumnos.length;
+            hasta = parseInt(hasta);
+            for (var i = 0; i < hasta; i++) {
+                nota = alumnos[i].nota;
+                nota = parseInt(nota);
+                if (nota >= 7) {
+                    aprobados[f] = alumnos[i].nombre;
+                    f = f + 1;
+                }
+
+            }
+
+            console.log(aprobados);
+
+        }
+
+        var alumnos = [
+            {
+                nombre: 'Juan Gomez',
+                nota: 7
+            }, {
+                nombre: 'Pedro Rodriguez',
+                nota: 4
+            }, {
+                nombre: 'Roxana García',
+                nota: 8
+            }, {
+                nombre: 'Luciano Lopez',
+                nota: 5
+            }, {
+                nombre: 'Fernanda Gimenez',
+                nota: 6
+            }, {
+                nombre: 'Florencia Martinez',
+                nota: 10
+            }, {
+                nombre: 'Raul Sanchez',
+                nota: 7
+            }, {
+                nombre: 'Sandra Figueroa',
+                nota: 8
+            }
+        ];
+
+        mayoresnotas(alumnos);
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="M3U4 Ejercicio 1.css">
+</head>
+
+<body>
+
+    <!-- <div class="contenedor" style="background-color:rgb(213, 209, 209)">
+
+        <div class="cuadrorojo" onclick="cambiarFondo('red')" ></div>
+
+        <div class="cuadroazul" onclick="cambiarFondo('blue')"></div>
+
+        <div class="cuadroverde" onclick="cambiarFondo('green')"></div>
+
+    </div> -->
+
+    <script>
+
+        function cambiabackground(color) {
+
+            document.querySelector('body').style.background = color;
+
+        }
+
+    </script>
+
+    <div class="contenedor">
+
+        <div class="cuadradorojo" onclick="cambiabackground('red')">
+            Cambia a este color el fondo
+        </div>
+        <br>
+        <div class="cuadradoverde" onclick="cambiabackground('green')">
+            Cambia a este color el fondo
+        </div>
+        <br>
+        <div class="cuadradoazul" onclick="cambiabackground('blue')">
+            Cambia a este color el fondo
+        </div>
+        <br>
+    </div>
+
+
+</body>
+
+</html>
