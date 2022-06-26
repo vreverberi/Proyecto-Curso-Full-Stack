@@ -1,12 +1,12 @@
 import React from "react";
 const HomePage = (props) => {
     return (
-        <main class="holder">
+        <main className="holder">
             <div>
-                <div class="velero">
+                <div className="velero">
                     <img src='img/Velero.JPG' alt='Velero' width='40%'/>
-                        <div class="columnas">
-                            <section class="bienvenidos">
+                        <div className="columnas">
+                            <section className="bienvenidos">
                                 <h2>Bienvenidos</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quo repellat ea iste
                                     perferendis
@@ -17,11 +17,11 @@ const HomePage = (props) => {
                                     ad doloribus, cumque consequatur praesentium deserunt? Dolore voluptates minima quaerat
                                     voluptatibus distinctio veniam, perspiciatis voluptate autem.</p>
                             </section>
-                            <section class="testimonios">
+                            <section className="testimonios">
                                 <h2>Testimonios</h2>
-                                <div class="testimonio">
-                                    <span class="cita">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-                                    <span class="autor">Juan Gomez - feb 2022</span>
+                                <div className="testimonio">
+                                    <span className="cita">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                    <span className="autor">Juan Gomez - feb 2022</span>
                                 </div>
                             </section>
                         </div>

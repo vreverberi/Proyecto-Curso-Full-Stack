@@ -1,9 +1,9 @@
 const ContactoPage = (props) => {
     return (
-        <main class="holder contacto">
+        <main className="holder contacto">
         <div>
             <h2>Contacto Rápido</h2>
-            <form action="" method="" class="formulario">
+            <form action="" method="" className="formulario">
                 <p>
                     <label for="nombre">Nombre</label>
                     <input type="text" placeholder="Nombre y Apellido" name=""/>
@@ -20,13 +20,13 @@ const ContactoPage = (props) => {
                     <label for="mensaje">Mensaje</label>
                     <textarea placeholder="Escriba su mensaje" name=""></textarea>
                 </p>
-                <p class="botones">
+                <p className="botones">
                     <input type="submit" value="Enviar" />
                     <input type="reset" value="Borrar" />
                 </p>
             </form>
         </div>
-        <div class="datos">
+        <div className="datos">
             <h2>Otras vías de comunicación</h2>
             <p>También podés contactarse con nosotros usando los siguientes medios:</p>
             <ul>

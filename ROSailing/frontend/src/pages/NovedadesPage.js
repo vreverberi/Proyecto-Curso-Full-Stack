@@ -1,9 +1,9 @@
 // import React from 'react';
 const NovedadesPage = (props) => {
 return (
-    <main class="holder">
+    <main className="holder">
         <h2>Novedades</h2>
-        <div class="novedades">
+        <div className="novedades">
             <h3>TITULO</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore vel veniam consectetur distinctio ipsa
                 totam id optio tempore quas laborum necessitatibus assumenda, temporibus ratione mollitia quos modi
@@ -11,7 +11,7 @@ return (
             </p>
             <hr/>
         </div>
-        <div class="novedades">
+        <div className="novedades">
             <h3>TITULO</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore vel veniam consectetur distinctio ipsa
                 totam id optio tempore quas laborum necessitatibus assumenda, temporibus ratione mollitia quos modi
@@ -19,7 +19,7 @@ return (
             </p>
             <hr/>
         </div>
-        <div class="novedades">
+        <div className="novedades">
             <h3>TITULO</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore vel veniam consectetur distinctio ipsa
                 totam id optio tempore quas laborum necessitatibus assumenda, temporibus ratione mollitia quos modi

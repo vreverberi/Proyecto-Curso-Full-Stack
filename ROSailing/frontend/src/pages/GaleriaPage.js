@@ -1,9 +1,9 @@
 // import React from 'react';
 const GaleriaPage = (props) => {
 return (
-    <main class="holder">
+    <main className="holder">
         <h2>Galería</h2>
-       <div class="galeria">
+       <div className="galeria">
            <img src="img/galeria/foto (1).JPG" alt=""/>
            <img src="img/galeria/foto (2).JPG" alt=""/>
            <img src="img/galeria/foto (3).JPG" alt=""/>
