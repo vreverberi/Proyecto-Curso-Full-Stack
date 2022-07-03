@@ -1,4 +1,4 @@
-// import React from 'react';
+import '../styles/NovedadesPage.css'
 const NovedadesPage = (props) => {
 return (
     <main className="holder">

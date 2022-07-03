@@ -1,3 +1,4 @@
+import '../styles/ContactoPage.css'
 const ContactoPage = (props) => {
     return (
         <main className="holder contacto">
@@ -28,7 +29,7 @@ const ContactoPage = (props) => {
         </div>
         <div className="datos">
             <h2>Otras vías de comunicación</h2>
-            <p>También podés contactarse con nosotros usando los siguientes medios:</p>
+            <p>También podés comunicarte con nosotros usando los siguientes medios:</p>
             <ul>
                 <li>cel: 3415889988</li>
                 <li>mail: contacto@rosailing.com.ar</li>

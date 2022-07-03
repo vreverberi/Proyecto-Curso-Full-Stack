@@ -1,6 +1,6 @@
 import './App.css';
-import './normalize.css';
-import './rosailing.css';
+import './styles/Normalize.css';
+// import './styles/rosailing.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Header from './components/layout/Header';

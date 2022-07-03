@@ -1,4 +1,4 @@
-// import React from 'react';
+import '../styles/Galeria.css'
 const GaleriaPage = (props) => {
 return (
     <main className="holder">
